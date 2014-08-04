@@ -7,26 +7,77 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		CE6086A11977148D0021B562 /* CommonUniversalLibrary */ = {
+		AA4C4D18198E164100B9FA9B /* Framework */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = CE6086A21977148D0021B562 /* Build configuration list for PBXAggregateTarget "CommonUniversalLibrary" */;
+			buildConfigurationList = AA4C4D19198E164100B9FA9B /* Build configuration list for PBXAggregateTarget "Framework" */;
 			buildPhases = (
-				CE6086A5197714B30021B562 /* ShellScript */,
+				AA4C4D1E198E166300B9FA9B /* Build Framework */,
 			);
 			dependencies = (
+				AA4C4D1D198E164B00B9FA9B /* PBXTargetDependency */,
 			);
-			name = CommonUniversalLibrary;
-			productName = CommonUniversalLibrary;
+			name = Framework;
+			productName = Framework;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		AA4C4CE3198E143900B9FA9B /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBB519748E9000394940 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CE4198E143900B9FA9B /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBB719748E9000394940 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CE5198E143900B9FA9B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBB919748E9000394940 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CE6198E143900B9FA9B /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBBB19748E9000394940 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CE7198E143900B9FA9B /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBBC19748E9000394940 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CE8198E143900B9FA9B /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBBE19748E9000394940 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CE9198E143900B9FA9B /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBC019748E9000394940 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CEA198E143900B9FA9B /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBC219748E9000394940 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CEB198E143900B9FA9B /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBC419748E9000394940 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CEC198E143900B9FA9B /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBC619748E9000394940 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CED198E143900B9FA9B /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBC919748E9000394940 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CEE198E143900B9FA9B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBCB19748E9000394940 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CEF198E143900B9FA9B /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBCD19748E9000394940 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CF0198E143900B9FA9B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBCF19748E9000394940 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CF1198E143900B9FA9B /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBD119748E9000394940 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CF2198E143900B9FA9B /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBD319748E9000394940 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CF3198E143900B9FA9B /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBD419748E9000394940 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CF4198E143900B9FA9B /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBD619748E9000394940 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CF5198E143900B9FA9B /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A00DBD819748E9000394940 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CF6198E143900B9FA9B /* MRBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8CFD19747E4800E6C361 /* MRBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CF7198E143900B9FA9B /* UIImage+MRImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8CFF19747E4800E6C361 /* UIImage+MRImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CF8198E143900B9FA9B /* MRActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D0219747E4800E6C361 /* MRActivityIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CF9198E143900B9FA9B /* MRCircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D0419747E4800E6C361 /* MRCircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CFA198E143900B9FA9B /* MRIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D0619747E4800E6C361 /* MRIconView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CFB198E143900B9FA9B /* MRNavigationBarProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D0819747E4800E6C361 /* MRNavigationBarProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CFC198E143900B9FA9B /* MRProgressOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D0A19747E4800E6C361 /* MRProgressOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CFD198E143900B9FA9B /* MRProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D0C19747E4800E6C361 /* MRProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CFE198E143900B9FA9B /* MRMessageInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D0E19747E4800E6C361 /* MRMessageInterceptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4CFF198E143900B9FA9B /* MRProgressHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D1019747E4800E6C361 /* MRProgressHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D00198E143900B9FA9B /* MRWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D1119747E4800E6C361 /* MRWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D01198E143900B9FA9B /* PNTToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D1419747E4800E6C361 /* PNTToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D02198E143900B9FA9B /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D1719747E4800E6C361 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D03198E143900B9FA9B /* AVTBaseServiceAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D1C19747E4800E6C361 /* AVTBaseServiceAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D04198E143900B9FA9B /* AVTBaseError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D2119747E4800E6C361 /* AVTBaseError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D05198E143900B9FA9B /* AVTHTTPError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D2319747E4800E6C361 /* AVTHTTPError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D06198E143A00B9FA9B /* AVTConnectivityError.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D2519747E4800E6C361 /* AVTConnectivityError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D07198E143A00B9FA9B /* AVTAlertViewFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D3719747E4800E6C361 /* AVTAlertViewFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D08198E143A00B9FA9B /* AVTBaseFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D3919747E4800E6C361 /* AVTBaseFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D09198E143A00B9FA9B /* AVTErrorFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D3B19747E4800E6C361 /* AVTErrorFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D0A198E143A00B9FA9B /* AVTBaseAppearanceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D4019747E4800E6C361 /* AVTBaseAppearanceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D0B198E143A00B9FA9B /* NSAttributedString+Fonts.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D4419747E4800E6C361 /* NSAttributedString+Fonts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D0C198E143A00B9FA9B /* NSDateFormatter+Singleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D4619747E4800E6C361 /* NSDateFormatter+Singleton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D0D198E143A00B9FA9B /* NSString+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D4819747E4800E6C361 /* NSString+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D0E198E143A00B9FA9B /* UIColor+CustomColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D4D19747E4800E6C361 /* UIColor+CustomColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D0F198E143A00B9FA9B /* UILabel+TextSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D4F19747E4800E6C361 /* UILabel+TextSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D10198E143A00B9FA9B /* AVTLocalizationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D5619747E4800E6C361 /* AVTLocalizationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D11198E143A00B9FA9B /* AVTAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D6719747E4800E6C361 /* AVTAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D12198E143A00B9FA9B /* AVTBaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D6F19747E4800E6C361 /* AVTBaseTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D13198E143A00B9FA9B /* AVTBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8D7119747E4800E6C361 /* AVTBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D14198E143A00B9FA9B /* AVTEditionDisabledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8DB919747E4800E6C361 /* AVTEditionDisabledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D15198E144500B9FA9B /* AVTBaseAppService.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8CAA19747E4700E6C361 /* AVTBaseAppService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4C4D16198E144500B9FA9B /* AVTBaseJSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ACF8CBE19747E4700E6C361 /* AVTBaseJSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE36D82319771AD900F307B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE36D82119771AD900F307B0 /* InfoPlist.strings */; };
 		CE608637197711550021B562 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A00DBEC197493E000394940 /* CoreData.framework */; };
 		CE6086381977115B0021B562 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACF8C7019747B7B00E6C361 /* CoreGraphics.framework */; };
 		CE608639197711610021B562 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACF8C7219747B7B00E6C361 /* UIKit.framework */; };
-		CE60863A1977117B0021B562 /* Images.xcassets in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D5919747E4800E6C361 /* Images.xcassets */; };
-		CE60863C197711950021B562 /* Common-Info.plist in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D6919747E4800E6C361 /* Common-Info.plist */; };
 		CE60863D197711F90021B562 /* AVTBaseAppService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF8CAB19747E4700E6C361 /* AVTBaseAppService.m */; };
 		CE60863E197711F90021B562 /* AVTBaseJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF8CBF19747E4700E6C361 /* AVTBaseJSONModel.m */; };
 		CE60863F197711F90021B562 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A00DBB619748E9000394940 /* AFHTTPRequestOperation.m */; };
@@ -75,58 +126,6 @@
 		CE60866A197711FA0021B562 /* AVTBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF8D7019747E4800E6C361 /* AVTBaseTableViewController.m */; };
 		CE60866B197711FA0021B562 /* AVTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF8D7219747E4800E6C361 /* AVTBaseViewController.m */; };
 		CE60866C197711FA0021B562 /* AVTEditionDisabledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF8DBA19747E4800E6C361 /* AVTEditionDisabledTextField.m */; };
-		CE60866D1977138E0021B562 /* AVTBaseAppService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8CAA19747E4700E6C361 /* AVTBaseAppService.h */; };
-		CE60866E1977138E0021B562 /* AVTBaseJSONModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8CBE19747E4700E6C361 /* AVTBaseJSONModel.h */; };
-		CE60866F1977138E0021B562 /* AFHTTPRequestOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBB519748E9000394940 /* AFHTTPRequestOperation.h */; };
-		CE6086701977138E0021B562 /* AFHTTPRequestOperationManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBB719748E9000394940 /* AFHTTPRequestOperationManager.h */; };
-		CE6086711977138E0021B562 /* AFHTTPSessionManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBB919748E9000394940 /* AFHTTPSessionManager.h */; };
-		CE6086721977138E0021B562 /* AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBBB19748E9000394940 /* AFNetworking.h */; };
-		CE6086731977138E0021B562 /* AFNetworkReachabilityManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBBC19748E9000394940 /* AFNetworkReachabilityManager.h */; };
-		CE6086741977138E0021B562 /* AFSecurityPolicy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBBE19748E9000394940 /* AFSecurityPolicy.h */; };
-		CE6086751977138E0021B562 /* AFURLConnectionOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBC019748E9000394940 /* AFURLConnectionOperation.h */; };
-		CE6086761977138E0021B562 /* AFURLRequestSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBC219748E9000394940 /* AFURLRequestSerialization.h */; };
-		CE6086771977138E0021B562 /* AFURLResponseSerialization.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBC419748E9000394940 /* AFURLResponseSerialization.h */; };
-		CE6086781977138E0021B562 /* AFURLSessionManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBC619748E9000394940 /* AFURLSessionManager.h */; };
-		CE6086791977138E0021B562 /* AFNetworkActivityIndicatorManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBC919748E9000394940 /* AFNetworkActivityIndicatorManager.h */; };
-		CE60867A1977138E0021B562 /* UIActivityIndicatorView+AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBCB19748E9000394940 /* UIActivityIndicatorView+AFNetworking.h */; };
-		CE60867B1977138E0021B562 /* UIAlertView+AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBCD19748E9000394940 /* UIAlertView+AFNetworking.h */; };
-		CE60867C1977138E0021B562 /* UIButton+AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBCF19748E9000394940 /* UIButton+AFNetworking.h */; };
-		CE60867D1977138E0021B562 /* UIImageView+AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBD119748E9000394940 /* UIImageView+AFNetworking.h */; };
-		CE60867E1977138E0021B562 /* UIKit+AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBD319748E9000394940 /* UIKit+AFNetworking.h */; };
-		CE60867F1977138E0021B562 /* UIProgressView+AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBD419748E9000394940 /* UIProgressView+AFNetworking.h */; };
-		CE6086801977138E0021B562 /* UIRefreshControl+AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBD619748E9000394940 /* UIRefreshControl+AFNetworking.h */; };
-		CE6086811977138E0021B562 /* UIWebView+AFNetworking.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A00DBD819748E9000394940 /* UIWebView+AFNetworking.h */; };
-		CE6086821977138E0021B562 /* MRBlurView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8CFD19747E4800E6C361 /* MRBlurView.h */; };
-		CE6086831977138E0021B562 /* UIImage+MRImageEffects.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8CFF19747E4800E6C361 /* UIImage+MRImageEffects.h */; };
-		CE6086841977138E0021B562 /* MRActivityIndicatorView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D0219747E4800E6C361 /* MRActivityIndicatorView.h */; };
-		CE6086851977138E0021B562 /* MRCircularProgressView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D0419747E4800E6C361 /* MRCircularProgressView.h */; };
-		CE6086861977138E0021B562 /* MRIconView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D0619747E4800E6C361 /* MRIconView.h */; };
-		CE6086871977138E0021B562 /* MRNavigationBarProgressView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D0819747E4800E6C361 /* MRNavigationBarProgressView.h */; };
-		CE6086881977138E0021B562 /* MRProgressOverlayView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D0A19747E4800E6C361 /* MRProgressOverlayView.h */; };
-		CE6086891977138E0021B562 /* MRProgress.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D0C19747E4800E6C361 /* MRProgress.h */; };
-		CE60868A1977138E0021B562 /* MRMessageInterceptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D0E19747E4800E6C361 /* MRMessageInterceptor.h */; };
-		CE60868B1977138E0021B562 /* MRProgressHelper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D1019747E4800E6C361 /* MRProgressHelper.h */; };
-		CE60868C1977138E0021B562 /* MRWeakProxy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D1119747E4800E6C361 /* MRWeakProxy.h */; };
-		CE60868D1977138E0021B562 /* PNTToolbar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D1419747E4800E6C361 /* PNTToolbar.h */; };
-		CE60868E1977138E0021B562 /* Reachability.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D1719747E4800E6C361 /* Reachability.h */; };
-		CE60868F1977138E0021B562 /* AVTBaseServiceAgent.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D1C19747E4800E6C361 /* AVTBaseServiceAgent.h */; };
-		CE6086901977138E0021B562 /* AVTBaseError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D2119747E4800E6C361 /* AVTBaseError.h */; };
-		CE6086911977138E0021B562 /* AVTHTTPError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D2319747E4800E6C361 /* AVTHTTPError.h */; };
-		CE6086921977138E0021B562 /* AVTConnectivityError.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D2519747E4800E6C361 /* AVTConnectivityError.h */; };
-		CE6086931977138E0021B562 /* AVTAlertViewFactory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D3719747E4800E6C361 /* AVTAlertViewFactory.h */; };
-		CE6086941977138E0021B562 /* AVTBaseFactory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D3919747E4800E6C361 /* AVTBaseFactory.h */; };
-		CE6086951977138E0021B562 /* AVTErrorFactory.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D3B19747E4800E6C361 /* AVTErrorFactory.h */; };
-		CE6086961977138E0021B562 /* AVTBaseAppearanceManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D4019747E4800E6C361 /* AVTBaseAppearanceManager.h */; };
-		CE6086971977138E0021B562 /* NSAttributedString+Fonts.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D4419747E4800E6C361 /* NSAttributedString+Fonts.h */; };
-		CE6086981977138E0021B562 /* NSDateFormatter+Singleton.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D4619747E4800E6C361 /* NSDateFormatter+Singleton.h */; };
-		CE6086991977138E0021B562 /* NSString+Size.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D4819747E4800E6C361 /* NSString+Size.h */; };
-		CE60869A1977138E0021B562 /* UIColor+CustomColors.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D4D19747E4800E6C361 /* UIColor+CustomColors.h */; };
-		CE60869B1977138E0021B562 /* UILabel+TextSize.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D4F19747E4800E6C361 /* UILabel+TextSize.h */; };
-		CE60869C1977138E0021B562 /* AVTLocalizationMacros.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D5619747E4800E6C361 /* AVTLocalizationMacros.h */; };
-		CE60869D1977138E0021B562 /* AVTAppDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D6719747E4800E6C361 /* AVTAppDelegate.h */; };
-		CE60869E1977138E0021B562 /* AVTBaseTableViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D6F19747E4800E6C361 /* AVTBaseTableViewController.h */; };
-		CE60869F1977138E0021B562 /* AVTBaseViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8D7119747E4800E6C361 /* AVTBaseViewController.h */; };
-		CE6086A01977138E0021B562 /* AVTEditionDisabledTextField.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7ACF8DB919747E4800E6C361 /* AVTEditionDisabledTextField.h */; };
 		CE608714197718A20021B562 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACF8C8719747B7B00E6C361 /* XCTest.framework */; };
 		CE608715197718A20021B562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACF8C6E19747B7B00E6C361 /* Foundation.framework */; };
 		CE608716197718A20021B562 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACF8C7219747B7B00E6C361 /* UIKit.framework */; };
@@ -135,6 +134,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AA4C4D1C198E164B00B9FA9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ACF8C6319747B7B00E6C361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE945BDF197709CB00E860E9;
+			remoteInfo = Common;
+		};
 		CE608720197718A20021B562 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7ACF8C6319747B7B00E6C361 /* Project object */;
@@ -143,72 +149,6 @@
 			remoteInfo = Common;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		CE945BDE197709CB00E860E9 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				CE60866D1977138E0021B562 /* AVTBaseAppService.h in CopyFiles */,
-				CE60866E1977138E0021B562 /* AVTBaseJSONModel.h in CopyFiles */,
-				CE60866F1977138E0021B562 /* AFHTTPRequestOperation.h in CopyFiles */,
-				CE6086701977138E0021B562 /* AFHTTPRequestOperationManager.h in CopyFiles */,
-				CE6086711977138E0021B562 /* AFHTTPSessionManager.h in CopyFiles */,
-				CE6086721977138E0021B562 /* AFNetworking.h in CopyFiles */,
-				CE6086731977138E0021B562 /* AFNetworkReachabilityManager.h in CopyFiles */,
-				CE6086741977138E0021B562 /* AFSecurityPolicy.h in CopyFiles */,
-				CE6086751977138E0021B562 /* AFURLConnectionOperation.h in CopyFiles */,
-				CE6086761977138E0021B562 /* AFURLRequestSerialization.h in CopyFiles */,
-				CE6086771977138E0021B562 /* AFURLResponseSerialization.h in CopyFiles */,
-				CE6086781977138E0021B562 /* AFURLSessionManager.h in CopyFiles */,
-				CE6086791977138E0021B562 /* AFNetworkActivityIndicatorManager.h in CopyFiles */,
-				CE60867A1977138E0021B562 /* UIActivityIndicatorView+AFNetworking.h in CopyFiles */,
-				CE60867B1977138E0021B562 /* UIAlertView+AFNetworking.h in CopyFiles */,
-				CE60867C1977138E0021B562 /* UIButton+AFNetworking.h in CopyFiles */,
-				CE60867D1977138E0021B562 /* UIImageView+AFNetworking.h in CopyFiles */,
-				CE60867E1977138E0021B562 /* UIKit+AFNetworking.h in CopyFiles */,
-				CE60867F1977138E0021B562 /* UIProgressView+AFNetworking.h in CopyFiles */,
-				CE6086801977138E0021B562 /* UIRefreshControl+AFNetworking.h in CopyFiles */,
-				CE6086811977138E0021B562 /* UIWebView+AFNetworking.h in CopyFiles */,
-				CE6086821977138E0021B562 /* MRBlurView.h in CopyFiles */,
-				CE6086831977138E0021B562 /* UIImage+MRImageEffects.h in CopyFiles */,
-				CE6086841977138E0021B562 /* MRActivityIndicatorView.h in CopyFiles */,
-				CE6086851977138E0021B562 /* MRCircularProgressView.h in CopyFiles */,
-				CE6086861977138E0021B562 /* MRIconView.h in CopyFiles */,
-				CE6086871977138E0021B562 /* MRNavigationBarProgressView.h in CopyFiles */,
-				CE6086881977138E0021B562 /* MRProgressOverlayView.h in CopyFiles */,
-				CE6086891977138E0021B562 /* MRProgress.h in CopyFiles */,
-				CE60868A1977138E0021B562 /* MRMessageInterceptor.h in CopyFiles */,
-				CE60868B1977138E0021B562 /* MRProgressHelper.h in CopyFiles */,
-				CE60868C1977138E0021B562 /* MRWeakProxy.h in CopyFiles */,
-				CE60868D1977138E0021B562 /* PNTToolbar.h in CopyFiles */,
-				CE60868E1977138E0021B562 /* Reachability.h in CopyFiles */,
-				CE60868F1977138E0021B562 /* AVTBaseServiceAgent.h in CopyFiles */,
-				CE6086901977138E0021B562 /* AVTBaseError.h in CopyFiles */,
-				CE6086911977138E0021B562 /* AVTHTTPError.h in CopyFiles */,
-				CE6086921977138E0021B562 /* AVTConnectivityError.h in CopyFiles */,
-				CE6086931977138E0021B562 /* AVTAlertViewFactory.h in CopyFiles */,
-				CE6086941977138E0021B562 /* AVTBaseFactory.h in CopyFiles */,
-				CE6086951977138E0021B562 /* AVTErrorFactory.h in CopyFiles */,
-				CE6086961977138E0021B562 /* AVTBaseAppearanceManager.h in CopyFiles */,
-				CE6086971977138E0021B562 /* NSAttributedString+Fonts.h in CopyFiles */,
-				CE6086981977138E0021B562 /* NSDateFormatter+Singleton.h in CopyFiles */,
-				CE6086991977138E0021B562 /* NSString+Size.h in CopyFiles */,
-				CE60869A1977138E0021B562 /* UIColor+CustomColors.h in CopyFiles */,
-				CE60869B1977138E0021B562 /* UILabel+TextSize.h in CopyFiles */,
-				CE60869C1977138E0021B562 /* AVTLocalizationMacros.h in CopyFiles */,
-				CE60869D1977138E0021B562 /* AVTAppDelegate.h in CopyFiles */,
-				CE60869E1977138E0021B562 /* AVTBaseTableViewController.h in CopyFiles */,
-				CE60869F1977138E0021B562 /* AVTBaseViewController.h in CopyFiles */,
-				CE6086A01977138E0021B562 /* AVTEditionDisabledTextField.h in CopyFiles */,
-				CE60863C197711950021B562 /* Common-Info.plist in CopyFiles */,
-				CE60863A1977117B0021B562 /* Images.xcassets in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7A00DBB519748E9000394940 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -794,6 +734,68 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		AA4C4CE2198E13D400B9FA9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4C4CE3198E143900B9FA9B /* AFHTTPRequestOperation.h in Headers */,
+				AA4C4CE4198E143900B9FA9B /* AFHTTPRequestOperationManager.h in Headers */,
+				AA4C4D15198E144500B9FA9B /* AVTBaseAppService.h in Headers */,
+				AA4C4D16198E144500B9FA9B /* AVTBaseJSONModel.h in Headers */,
+				AA4C4CE5198E143900B9FA9B /* AFHTTPSessionManager.h in Headers */,
+				AA4C4CE6198E143900B9FA9B /* AFNetworking.h in Headers */,
+				AA4C4CE7198E143900B9FA9B /* AFNetworkReachabilityManager.h in Headers */,
+				AA4C4CE8198E143900B9FA9B /* AFSecurityPolicy.h in Headers */,
+				AA4C4CE9198E143900B9FA9B /* AFURLConnectionOperation.h in Headers */,
+				AA4C4CEA198E143900B9FA9B /* AFURLRequestSerialization.h in Headers */,
+				AA4C4CEB198E143900B9FA9B /* AFURLResponseSerialization.h in Headers */,
+				AA4C4CEC198E143900B9FA9B /* AFURLSessionManager.h in Headers */,
+				AA4C4CED198E143900B9FA9B /* AFNetworkActivityIndicatorManager.h in Headers */,
+				AA4C4CEE198E143900B9FA9B /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				AA4C4CEF198E143900B9FA9B /* UIAlertView+AFNetworking.h in Headers */,
+				AA4C4CF0198E143900B9FA9B /* UIButton+AFNetworking.h in Headers */,
+				AA4C4CF1198E143900B9FA9B /* UIImageView+AFNetworking.h in Headers */,
+				AA4C4CF2198E143900B9FA9B /* UIKit+AFNetworking.h in Headers */,
+				AA4C4CF3198E143900B9FA9B /* UIProgressView+AFNetworking.h in Headers */,
+				AA4C4CF4198E143900B9FA9B /* UIRefreshControl+AFNetworking.h in Headers */,
+				AA4C4CF5198E143900B9FA9B /* UIWebView+AFNetworking.h in Headers */,
+				AA4C4CF6198E143900B9FA9B /* MRBlurView.h in Headers */,
+				AA4C4CF7198E143900B9FA9B /* UIImage+MRImageEffects.h in Headers */,
+				AA4C4CF8198E143900B9FA9B /* MRActivityIndicatorView.h in Headers */,
+				AA4C4CF9198E143900B9FA9B /* MRCircularProgressView.h in Headers */,
+				AA4C4CFA198E143900B9FA9B /* MRIconView.h in Headers */,
+				AA4C4CFB198E143900B9FA9B /* MRNavigationBarProgressView.h in Headers */,
+				AA4C4CFC198E143900B9FA9B /* MRProgressOverlayView.h in Headers */,
+				AA4C4CFD198E143900B9FA9B /* MRProgress.h in Headers */,
+				AA4C4CFE198E143900B9FA9B /* MRMessageInterceptor.h in Headers */,
+				AA4C4CFF198E143900B9FA9B /* MRProgressHelper.h in Headers */,
+				AA4C4D00198E143900B9FA9B /* MRWeakProxy.h in Headers */,
+				AA4C4D01198E143900B9FA9B /* PNTToolbar.h in Headers */,
+				AA4C4D02198E143900B9FA9B /* Reachability.h in Headers */,
+				AA4C4D03198E143900B9FA9B /* AVTBaseServiceAgent.h in Headers */,
+				AA4C4D04198E143900B9FA9B /* AVTBaseError.h in Headers */,
+				AA4C4D05198E143900B9FA9B /* AVTHTTPError.h in Headers */,
+				AA4C4D06198E143A00B9FA9B /* AVTConnectivityError.h in Headers */,
+				AA4C4D07198E143A00B9FA9B /* AVTAlertViewFactory.h in Headers */,
+				AA4C4D08198E143A00B9FA9B /* AVTBaseFactory.h in Headers */,
+				AA4C4D09198E143A00B9FA9B /* AVTErrorFactory.h in Headers */,
+				AA4C4D0A198E143A00B9FA9B /* AVTBaseAppearanceManager.h in Headers */,
+				AA4C4D0B198E143A00B9FA9B /* NSAttributedString+Fonts.h in Headers */,
+				AA4C4D0C198E143A00B9FA9B /* NSDateFormatter+Singleton.h in Headers */,
+				AA4C4D0D198E143A00B9FA9B /* NSString+Size.h in Headers */,
+				AA4C4D0E198E143A00B9FA9B /* UIColor+CustomColors.h in Headers */,
+				AA4C4D0F198E143A00B9FA9B /* UILabel+TextSize.h in Headers */,
+				AA4C4D10198E143A00B9FA9B /* AVTLocalizationMacros.h in Headers */,
+				AA4C4D11198E143A00B9FA9B /* AVTAppDelegate.h in Headers */,
+				AA4C4D12198E143A00B9FA9B /* AVTBaseTableViewController.h in Headers */,
+				AA4C4D13198E143A00B9FA9B /* AVTBaseViewController.h in Headers */,
+				AA4C4D14198E143A00B9FA9B /* AVTEditionDisabledTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		CE608712197718A20021B562 /* CommonTests */ = {
 			isa = PBXNativeTarget;
@@ -819,7 +821,8 @@
 			buildPhases = (
 				CE945BDC197709CB00E860E9 /* Sources */,
 				CE945BDD197709CB00E860E9 /* Frameworks */,
-				CE945BDE197709CB00E860E9 /* CopyFiles */,
+				AA4C4CE2198E13D400B9FA9B /* Headers */,
+				AA4C4D17198E153B00B9FA9B /* Prepare Framework */,
 			);
 			buildRules = (
 			);
@@ -859,8 +862,8 @@
 			projectRoot = "";
 			targets = (
 				CE945BDF197709CB00E860E9 /* Common */,
-				CE6086A11977148D0021B562 /* CommonUniversalLibrary */,
 				CE608712197718A20021B562 /* CommonTests */,
+				AA4C4D18198E164100B9FA9B /* Framework */,
 			);
 		};
 /* End PBXProject section */
@@ -877,18 +880,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CE6086A5197714B30021B562 /* ShellScript */ = {
+		AA4C4D17198E153B00B9FA9B /* Prepare Framework */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Prepare Framework";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target Common ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target Common -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n";
+		};
+		AA4C4D1E198E166300B9FA9B /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nxcrun lipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -959,6 +977,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AA4C4D1D198E164B00B9FA9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE945BDF197709CB00E860E9 /* Common */;
+			targetProxy = AA4C4D1C198E164B00B9FA9B /* PBXContainerItemProxy */;
+		};
 		CE608721197718A20021B562 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CE945BDF197709CB00E860E9 /* Common */;
@@ -1022,6 +1045,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1055,19 +1079,20 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		CE6086A31977148D0021B562 /* Debug */ = {
+		AA4C4D1A198E164100B9FA9B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		CE6086A41977148D0021B562 /* Release */ = {
+		AA4C4D1B198E164100B9FA9B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1113,6 +1138,8 @@
 		CE945BFD197709CB00E860E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/Common.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Common/Supporting Files/Common-Prefix.pch";
@@ -1122,19 +1149,25 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Debug;
 		};
 		CE945BFE197709CB00E860E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/Common.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Common/Supporting Files/Common-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Release;
 		};
@@ -1150,11 +1183,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE6086A21977148D0021B562 /* Build configuration list for PBXAggregateTarget "CommonUniversalLibrary" */ = {
+		AA4C4D19198E164100B9FA9B /* Build configuration list for PBXAggregateTarget "Framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE6086A31977148D0021B562 /* Debug */,
-				CE6086A41977148D0021B562 /* Release */,
+				AA4C4D1A198E164100B9FA9B /* Debug */,
+				AA4C4D1B198E164100B9FA9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
