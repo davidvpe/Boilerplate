@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AVTBaseAppService.h"
+#import <Common/AVTBaseAppService.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
